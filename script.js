@@ -247,7 +247,7 @@ function updateBackgroundByTime() {
         hero.style.background = 'linear-gradient(135deg, #4a2c6d 0%, #8B7355 100%)';
     } else if (hour >= 6 && hour < 12) {
         // Утренний режим
-        hero.style.background = 'linear-gradient(135deg, #FFB8D9 0%, #FFE55C 100%)';
+        hero.style.background = 'linear-gradient(135deg, #4a2c6d 0%, #8B7355 100%)';
     }
     // Днем оставляем стандартный градиент
 }
