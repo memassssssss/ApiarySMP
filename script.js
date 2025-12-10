@@ -238,19 +238,19 @@ window.addEventListener('DOMContentLoaded', () => {
 });
 
 // Динамическое изменение фона в зависимости от времени суток
-function updateBackgroundByTime() {
-    const hour = new Date().getHours();
-    const hero = document.querySelector('.hero');
+//function updateBackgroundByTime() {
+ //   const hour = new Date().getHours();
+   // const hero = document.querySelector('.hero');
     
-    if (hour >= 18 || hour <= 6) {
+    //if (hour >= 18 || hour <= 6) {
         // Ночной режим
-        hero.style.background = 'linear-gradient(135deg, #4a2c6d 0%, #8B7355 100%)';
-    } else if (hour >= 6 && hour < 12) {
+      //  hero.style.background = 'linear-gradient(135deg, #4a2c6d 0%, #8B7355 100%)';
+    //} else if (hour >= 6 && hour < 12) {
         // Утренний режим
-        hero.style.background = 'linear-gradient(135deg, #4a2c6d 0%, #8B7355 100%)';
-    }
+      //  hero.style.background = 'linear-gradient(135deg, #4a2c6d 0%, #8B7355 100%)';
+   // }
     // Днем оставляем стандартный градиент
-}
+//}
 
 // Запускаем обновление фона
-updateBackgroundByTime();
+//updateBackgroundByTime();
